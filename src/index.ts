@@ -16,7 +16,7 @@ const requestHandler = async (
     res : Response
 ) => {
     res.status(200).json({
-        message : "Running CI/CD on AWS",
+        message : "Running CI/CD on AWS ELB",
         success : true , 
         statusCode : 200,
         body : []
