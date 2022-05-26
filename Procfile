@@ -1,1 +1,1 @@
-web: npm start
+web: tsc && node --unhandled-rejections=strict ./dist/src/index.js
