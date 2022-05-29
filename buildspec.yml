@@ -15,11 +15,7 @@ phases:
       - npm install --production=false
     finally:
       - echo install completeted
-<<<<<<< HEAD
   pre_build:
-=======
-  pre-build:
->>>>>>> dc9a2dd077258c15258942ffc235a707346d2729
     on-failure: abort
     commands:
       - tsc
@@ -29,11 +25,8 @@ phases:
     on-failure: abort
     commands:
       - echo Nothing to see here
-<<<<<<< HEAD
-  post_build:
-=======
+
   post-build:
->>>>>>> dc9a2dd077258c15258942ffc235a707346d2729
     on-failure: abort
     commands:
       - echo completed every build
