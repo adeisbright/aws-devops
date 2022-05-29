@@ -1,0 +1,31 @@
+version: 0.2
+
+run-as: ec2-user
+
+env:
+  variables:
+    SERVER_PORT: 3200
+phases:
+  install:
+    on-failure : abort 
+    runtime-versions:
+      nodejs : 16
+    commands:
+      - echo installing npm libraries
+      - npm install --production=false
+    finally:
+      - echo install completeted
+  pre_build:
+    on-failure: abort
+    commands:
+      - tsc
+    finally:
+      - echo The build files are now compiled
+  build:
+    on-failure: abort
+    commands:
+      - echo Nothing to see here
+  post_build:
+    on-failure: abort
+    commands:
+      - echo completed every build
