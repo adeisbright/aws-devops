@@ -15,8 +15,6 @@ phases:
       - echo install completeted
   pre_build:
     on-failure: abort
-    commands:
-      - tsc
     finally:
       - echo The build files are now compiled
   build:
