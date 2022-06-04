@@ -13,7 +13,7 @@ phases:
       - npm install --production=false
     finally:
       - echo install completeted
-  pre_build:
+  pre-build:
     on-failure: abort
     finally:
       - echo The build files are now compiled
@@ -21,8 +21,8 @@ phases:
     on-failure: abort
     commands:
       - echo Nothing to see here
-
-  post_build:
+      - npm run test
+  post-build:
     on-failure: abort
     commands:
       - echo completed every build

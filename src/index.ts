@@ -28,3 +28,5 @@ app.use(requestHandler)
 app.listen(Config.serverPort , () => {
     console.log(`The app is running on localhost:${Config.serverPort}`)
 })
+
+export default app;
