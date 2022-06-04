@@ -1,6 +1,6 @@
 # DevOps on AWS 
 
-https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoieUE2RVAyZll0eEFVM1F6RjNZR0hIVjl2TjVBQ0FCTlVZaXBWTDhFcUZXTlZha1hpSVZmc2pnaWQ4MkFKMmFSbU5Td1gyTlpZR1ZsckdZLzZJTm5VZjdvPSIsIml2UGFyYW1ldGVyU3BlYyI6IktEUTBpaUlFNFZYNlBLR0ciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
+https://codefactory-us-east-1-prod-default-build-badges.s3.amazonaws.com/unknown.svg
 
 
 Change management is an important part of software development.
