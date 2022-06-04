@@ -27,3 +27,6 @@ phases:
     on-failure: abort
     commands:
       - echo completed every build
+ cache:
+    paths:
+       - 'node_modules/**/*'
