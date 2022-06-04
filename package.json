@@ -11,7 +11,7 @@
     "build": "npm install --production=false",
     "postinstall": "tsc",
     "start": "tsc && node --unhandled-rejections=strict ./dist/src/index.js",
-    "test" : "mocha -r ts-node/register ./src/*.test.ts --timeout 10000"
+    "test" : "mocha -r ts-node/register ./src/*.test.ts --timeout 10000 --exit"
   },
   "repository": {
     "type": "git",
