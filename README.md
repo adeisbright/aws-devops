@@ -3,7 +3,7 @@
 ![](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoieUE2RVAyZll0eEFVM1F6RjNZR0hIVjl2TjVBQ0FCTlVZaXBWTDhFcUZXTlZha1hpSVZmc2pnaWQ4MkFKMmFSbU5Td1gyTlpZR1ZsckdZLzZJTm5VZjdvPSIsIml2UGFyYW1ldGVyU3BlYyI6IktEUTBpaUlFNFZYNlBLR0ciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 
-Change management is an important part of software development.
+Change management is an important part of software development today.
 If not treated properly, change can lead to resentment from developers, system administrators, and can introduce bug to customers.
 
 Building and failing fast is good but building needs to be aligned with right process so as to enable predictability and management.
