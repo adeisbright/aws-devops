@@ -9,6 +9,7 @@ phases:
     runtime-versions:
       nodejs : 12
     commands:
+      - n 16
       - echo installing npm libraries
       - npm install --production=false
     finally:
