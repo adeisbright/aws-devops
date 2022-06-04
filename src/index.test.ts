@@ -16,6 +16,6 @@ describe("App Request Handler" , () => {
 
     it("Should return a success respone" , async () => {
         const respone = await chai.request(app).get("/") 
-        expect(respone.body).to.have.property("statusCode").eq(201)
+        expect(respone.body).to.have.property("statusCode").eq(200)
     })
 })
