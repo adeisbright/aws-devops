@@ -4,8 +4,8 @@
   "description": "Automating deployment and runnng fault tolerant nodejs in production",
   "main": "index.js",
   "engines": {
-    "node": ">=16.14.0",
-    "npm": ">=8.3.1"
+    "node": ">=20.0.0",
+    "npm": ">=10.9.0"
   },
   "scripts": {
     "build": "npm install --production=false",
