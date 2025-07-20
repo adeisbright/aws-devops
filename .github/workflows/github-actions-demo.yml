@@ -6,3 +6,10 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       -  run: echo "The job was automatically trigger by a ${{ github.event_name}} event"
+      -  name: "Check out The Repository"
+         uses: actions/checkout@v4
+      -  run: echo "The github repository has been clone to the runner"
+      -  run: | 
+          ls ${{ github.workspace }}
+      -  run: echo "The job status is ${{ job.status }}."
+
